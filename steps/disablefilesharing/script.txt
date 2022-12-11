@@ -1,0 +1,18 @@
+VM='{virtualMachineNode.name}'
+
+echo "Disabling shared profiles"
+prlctl set "${VM}" --shared-profile off
+
+echo "Disabling file sharing"
+set -x
+prlctl set "${VM}" --shf-host-defined off
+prlctl set "${VM}" --shf-host-automount off
+
+prlctl set "${VM}" --shf-guest off
+prlctl set "${VM}" --shf-guest-automount off
+prlctl set "${VM}" --shf-guest-automount-cloud-drives off
+prlctl set "${VM}" --shf-guest-automount-network-drives off
+prlctl set "${VM}" --shf-guest-automount-removable-drives off
+
+prlctl set "${VM}" --shared-cloud off
+prlctl set "${VM}" --smart-mount off

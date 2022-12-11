@@ -1,0 +1,30 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "kickstartparallelslinuxvirtualmachineonmacos", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "prepareandcreatevirtualmachine"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "loadthekickstartisointothevirtualmachine"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "configureparallelsvpnvmsettings"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "startvm"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "pingforssh"
+        }
+    ], 
+    "name": "Kickstart Parallels Linux Virtual Machine on macOS", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

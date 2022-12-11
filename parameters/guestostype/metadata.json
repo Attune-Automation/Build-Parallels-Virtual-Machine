@@ -1,0 +1,6 @@
+{
+    "key": "guestostype", 
+    "name": "Guest OS Type", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

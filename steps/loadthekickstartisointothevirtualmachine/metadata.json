@@ -1,0 +1,14 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "loadthekickstartisointothevirtualmachine", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "mountisotocddrive"
+        }
+    ], 
+    "name": "Load the Kickstart ISO into the Virtual Machine", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

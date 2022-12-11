@@ -1,0 +1,9 @@
+VM='{virtualMachineNode.name}'
+
+echo "Setting the screen resolution so that it's not taxing\
+the MAC by rendering with retina resoloution"
+
+set -x
+prlctl set "${VM}" --native-scaling-in-guest on
+prlctl set "${VM}" --high-resolution-in-guest off
+prlctl set "${VM}" --high-resolution off

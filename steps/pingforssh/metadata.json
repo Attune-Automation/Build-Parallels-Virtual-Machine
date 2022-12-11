@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "key": "pingforssh", 
+    "minDowntime": 0, 
+    "name": "Ping for ssh", 
+    "postWait": 5, 
+    "preWait": 0, 
+    "serverKey": "virtualmachinenode", 
+    "tcpPort": 22, 
+    "type": "com.servertribe.attune.tuples.StepTcpPingTuple"
+}

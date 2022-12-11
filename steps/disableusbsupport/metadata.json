@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "disableusbsupport", 
+    "name": "Disable USB Support", 
+    "osCredKey": "macoshostuser", 
+    "serverKey": "macoshostnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

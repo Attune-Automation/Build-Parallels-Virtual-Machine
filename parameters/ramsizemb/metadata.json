@@ -1,0 +1,6 @@
+{
+    "key": "ramsizemb", 
+    "name": "Ram Size MB", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

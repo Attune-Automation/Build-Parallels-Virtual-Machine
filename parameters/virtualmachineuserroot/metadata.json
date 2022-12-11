@@ -1,0 +1,6 @@
+{
+    "key": "virtualmachineuserroot", 
+    "name": "Virtual Machine User - root", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}

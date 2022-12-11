@@ -1,0 +1,5 @@
+VM='{virtualMachineNode.name}'
+
+echo "Disabling USB Support"
+
+prlctl set "${VM}" --device-del usb

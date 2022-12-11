@@ -1,0 +1,6 @@
+{
+    "key": "cpucount", 
+    "name": "CPU Count", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

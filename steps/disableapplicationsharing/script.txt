@@ -1,0 +1,11 @@
+VM='{virtualMachineNode.name}'
+set -x
+
+prlctl set "${VM}" --winsystray-in-macmenu off
+prlctl set "${VM}" --auto-switch-fullscreen off
+
+prlctl set "${VM}" --sh-app-host-to-guest off
+prlctl set "${VM}" --sh-app-guest-to-host off
+prlctl set "${VM}" --show-guest-app-folder-in-dock off
+prlctl set "${VM}" --show-guest-notifications off
+prlctl set "${VM}" --bounce-dock-icon-when-app-flashes off

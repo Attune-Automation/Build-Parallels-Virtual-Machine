@@ -1,0 +1,4 @@
+VM='{virtualMachineNode.name}'
+
+echo "Shutting Down VM"
+prlctl stop "${VM}"

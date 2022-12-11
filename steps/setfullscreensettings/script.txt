@@ -1,0 +1,9 @@
+VM='{virtualMachineNode.name}'
+
+echo "Setting VM Fullscreen settings"
+
+echo "Setting VM to use all displays in fullscreen"
+prlctl set "${VM}" --fullscreen-use-all-displays on
+
+echo "Setting VM to not show and hide spaces on all displays simultaneously "
+prlctl set "${VM}" --fullscreen-activate-spaces-on-click off

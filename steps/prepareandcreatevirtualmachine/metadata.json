@@ -1,0 +1,18 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "prepareandcreatevirtualmachine", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "deletetheexistingvirtualmachine"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "createvirtualmachine"
+        }
+    ], 
+    "name": "Prepare and Create Virtual Machine", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

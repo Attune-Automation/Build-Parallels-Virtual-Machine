@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "setvmclipboardsettings", 
+    "name": "Set VM Clipboard Settings", 
+    "osCredKey": "macoshostuser", 
+    "serverKey": "macoshostnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

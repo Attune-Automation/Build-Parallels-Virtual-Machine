@@ -1,0 +1,17 @@
+VM='{virtualMachineNode.name}'
+set -x
+
+# Create the VM
+prlctl create "${VM}" --ostype {guestOsType}
+
+# Set the VM Paramaters
+prlctl set "${VM}" --memsize {ramSizeMb}
+
+# Set the VM CPU Count
+prlctl set "${VM}" --cpus {cpuCount}
+
+# All Synerty kickstarts are 50gb as a standard
+prlctl set "${VM}" --size 51200
+
+# Disable EFI boot
+#prlctl set "${VM}" --efi-boot=off

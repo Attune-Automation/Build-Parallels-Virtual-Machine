@@ -1,0 +1,5 @@
+VM='{virtualMachineNode.name}'
+
+echo "Enabling keyboard optimisation"
+
+prlctl set "${VM}" --keyboard-optimize on

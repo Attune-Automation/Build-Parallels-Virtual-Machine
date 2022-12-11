@@ -1,0 +1,1 @@
+Text integer of the RAM to be configured in MB, ie. '4096'.

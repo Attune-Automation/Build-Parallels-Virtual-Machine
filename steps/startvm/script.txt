@@ -1,0 +1,4 @@
+VM='{virtualMachineNode.name}'
+
+echo "Starting ${VM}"
+prlctl start "${VM}"

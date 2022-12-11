@@ -1,0 +1,17 @@
+VM='{virtualMachineNode.name}'
+
+echo  "Deleting VM : ${VM}"
+if prlctl list "${VM}"
+then
+    echo "VM Found"
+    
+    if prlctl delete "${VM}"
+    then  
+        echo "Success"
+    else 
+        prlctl stop "${VM}" --kill
+        prlctl delete "${VM}"
+    fi
+else
+    echo "No VM, continuing."
+fi

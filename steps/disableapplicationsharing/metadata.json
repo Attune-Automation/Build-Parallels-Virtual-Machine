@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "disableapplicationsharing", 
+    "name": "Disable Application Sharing", 
+    "osCredKey": "macoshostuser", 
+    "serverKey": "macoshostnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

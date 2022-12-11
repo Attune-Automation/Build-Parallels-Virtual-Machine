@@ -1,0 +1,6 @@
+{
+    "key": "basedir", 
+    "name": "Base Dir", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

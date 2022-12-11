@@ -1,0 +1,8 @@
+VM='{virtualMachineNode.name}'
+
+echo "Disabling shared printer support"
+
+set -x
+prlctl set "${VM}" --sync-host-printers off
+prlctl set "${VM}" --sync-default-printer off
+prlctl set "${VM}" --show-host-printer-ui off

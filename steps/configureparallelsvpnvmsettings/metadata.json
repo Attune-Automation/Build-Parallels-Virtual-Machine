@@ -1,0 +1,54 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "configureparallelsvpnvmsettings", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "setvmnetworksettings"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "setvmclipboardsettings"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "setfullscreensettings"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "shutdownvm"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "disableusbsupport"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "disablesoundsupport"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "setoptimalscreenresolutions"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "disablesharedprintersupport"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "enablekeyboardoptimisation"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "disablefilesharing"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "disableapplicationsharing"
+        }
+    ], 
+    "name": "Configure Parallels VPN VM Settings", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}
