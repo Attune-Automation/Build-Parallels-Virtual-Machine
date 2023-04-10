@@ -1,11 +1,11 @@
 VM='{virtualMachineNode.name}'
 
-DIR="{baseDir}/build-{virtualMachineNode.fqn}"
+DIR="{baseDir}"
 
 # Set up the Virtual Machine by mounting the .iso to a cd drive
 prlctl set "${VM}" \
     --device-set cdrom0 \
-    --image ${DIR}/kickstart.iso \
+    --image ${DIR}/kickstart_{virtualMachineNode.fqn}.iso \
     --enable \
     --connect
     

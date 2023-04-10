@@ -98,6 +98,9 @@ This Project contains the following Blueprints.
 
 
 
+### Kickstart Parallels Linux Virtual Machine on macOS
+
+
 
 
 
@@ -106,6 +109,16 @@ This Project contains the following Blueprints.
 
 | Name | Type | Script Reference | Comment |
 | ---- | ---- | ---------------- | ------- |
+| Base Dir | Text | `basedir` | This is the parameter for the base directory on the Attune node for storing kickstart files. |
+| CPU Count | Text | `cpucount` | Text Integer of the CPU count ie. '4'. |
+| Guest OS Type | Text | `guestostype` | VMWare Guest OS Types for Guest Customization.
+
+https://docs.vmware.com/en/VMware-HCX/4.2/hcx-user-guide/GUID-D4FFCBD6-9FEC-44E5-9E26-1BD0A2A81389.html |
+| macOS Host Node | Linux/Unix Node | `macoshostnode` | None |
+| macOS Host User | Linux/Unix Credential | `macoshostuser` | None |
+| Ram Size MB | Text | `ramsizemb` | Text integer of the RAM to be configured in MB, ie. '4096'. |
+| Virtual Machine Node | Linux/Unix Node | `virtualmachinenode` | None |
+| Virtual Machine User - root | Linux/Unix Credential | `virtualmachineuserroot` | None |
 
 
 

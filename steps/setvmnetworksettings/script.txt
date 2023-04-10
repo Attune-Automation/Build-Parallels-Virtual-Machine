@@ -2,4 +2,4 @@ VM='{virtualMachineNode.name}'
 
 echo "Setting VM network to \"Shared Network (Reccommended)\""
 
-prlctl set "${VM}" --device-set net0 --type shared
+prlctl set "${VM}" --device-set net0 --type bridged
