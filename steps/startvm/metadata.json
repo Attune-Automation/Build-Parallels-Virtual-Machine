@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "14eeace8-3726-4a82-a96c-06274742c385", 
     "interpreter": 1, 
     "key": "startvm", 
     "name": "Start VM", 

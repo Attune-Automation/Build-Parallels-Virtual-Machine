@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "077d5a65-7ddc-42df-8278-c78af546d6b7", 
     "interpreter": 1, 
     "key": "mountisotocddrive", 
     "name": "Mount ISO to CD Drive", 

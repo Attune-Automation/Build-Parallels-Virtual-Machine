@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "32e6b623-7eec-4e73-9d22-d4348e81adff", 
     "isBlueprint": false, 
     "key": "prepareandcreatevirtualmachine", 
     "links": [

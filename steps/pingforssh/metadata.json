@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "9cbe0c74-98bc-441e-8c63-32966baad189", 
     "key": "pingforssh", 
     "minDowntime": 0, 
     "name": "Ping for ssh", 

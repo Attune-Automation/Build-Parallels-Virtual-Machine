@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "6b85638c-9bf7-488f-977f-94ac0f9b38e6", 
     "isBlueprint": false, 
     "key": "loadthekickstartisointothevirtualmachine", 
     "links": [

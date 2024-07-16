@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "32db2672-be3d-4aee-85c5-a670263fc957", 
     "interpreter": 1, 
     "key": "setoptimalscreenresolutions", 
     "name": "Set optimal screen resolutions", 

@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "ad8bbb36-74e7-49a8-8a1e-69e1673cbb06", 
     "interpreter": 1, 
     "key": "createvirtualmachine", 
     "name": "Create Virtual Machine", 

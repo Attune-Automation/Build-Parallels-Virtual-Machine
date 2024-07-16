@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "785526e5-324a-48d7-828a-f50fd4b43598", 
     "interpreter": 1, 
     "key": "shutdownvm", 
     "name": "Shutdown VM", 

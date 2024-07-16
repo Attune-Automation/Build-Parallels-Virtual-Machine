@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "b93ba197-32fd-4d93-91b4-1b6204d1a310", 
     "interpreter": 1, 
     "key": "setfullscreensettings", 
     "name": "Set Fullscreen Settings", 

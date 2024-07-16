@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "4143df2e-c82c-4537-97fa-d3977e1c0859", 
     "interpreter": 1, 
     "key": "disablesharedprintersupport", 
     "name": "Disable Shared Printer Support", 

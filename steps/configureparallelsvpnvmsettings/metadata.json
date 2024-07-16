@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "bfcefacb-a0ca-4d3d-8bc1-f1db84fb07d8", 
     "isBlueprint": false, 
     "key": "configureparallelsvpnvmsettings", 
     "links": [

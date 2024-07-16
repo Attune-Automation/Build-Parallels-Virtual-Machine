@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "b4e7d2f1-13fc-46a7-9713-27fc19faa995", 
     "interpreter": 1, 
     "key": "deletetheexistingvirtualmachine", 
     "name": "Delete the Existing Virtual Machine", 

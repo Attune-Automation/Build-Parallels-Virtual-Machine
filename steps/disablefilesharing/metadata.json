@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "28935ebf-baad-4f4b-b05e-338826b34d6e", 
     "interpreter": 1, 
     "key": "disablefilesharing", 
     "name": "Disable File Sharing", 

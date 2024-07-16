@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "82af38f8-afce-4777-b045-2fe92c37e062", 
     "interpreter": 1, 
     "key": "setvmnetworksettings", 
     "name": "Set VM Network Settings", 

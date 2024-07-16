@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "7fcc2441-a3a6-4dbe-8a65-226f6bc8e722", 
     "interpreter": 1, 
     "key": "enablekeyboardoptimisation", 
     "name": "Enable keyboard optimisation", 

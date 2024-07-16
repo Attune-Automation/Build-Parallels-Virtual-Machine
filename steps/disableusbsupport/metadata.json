@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "201745f8-72f2-4f24-953f-2fb95c580efa", 
     "interpreter": 1, 
     "key": "disableusbsupport", 
     "name": "Disable USB Support", 

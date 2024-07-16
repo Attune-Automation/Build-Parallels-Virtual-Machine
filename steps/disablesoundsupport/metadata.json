@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "c118722d-6cf1-4607-9cb3-3f6a12df2bb8", 
     "interpreter": 1, 
     "key": "disablesoundsupport", 
     "name": "Disable Sound Support", 

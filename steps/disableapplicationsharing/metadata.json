@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "05872061-c726-425e-a30e-25908ed71def", 
     "interpreter": 1, 
     "key": "disableapplicationsharing", 
     "name": "Disable Application Sharing", 

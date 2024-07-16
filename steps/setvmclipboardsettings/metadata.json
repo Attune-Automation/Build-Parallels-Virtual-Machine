@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "474941b0-ac71-46f1-9b16-57bc9e1f0461", 
     "interpreter": 1, 
     "key": "setvmclipboardsettings", 
     "name": "Set VM Clipboard Settings", 

@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "01c36979-79d6-4b1d-b707-a9ea18ca726f", 
     "isBlueprint": true, 
     "key": "kickstartparallelslinuxvirtualmachineonmacos", 
     "links": [
